@@ -15,6 +15,7 @@ align-items: center;
 min-height: 100%;
 
 
+
 font-family: 'lato', sans-serif;
 color: #fff;
 background: #222222;
@@ -24,10 +25,12 @@ background: linear-gradient(to top, #16222A , #3A6073); /* W3C, IE 10+/ Edge, Fi
 }
 
 .container {
-	background:rgba(58,63,68,0.5);
+  
+  background:rgba(58,63,68,0.5);
+  /* margin: 25%; */
   border-radius: 5px;
   box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
-  /* width:20px; */
+  width:20px;
 
   display: flex;  
   flex-direction: column;

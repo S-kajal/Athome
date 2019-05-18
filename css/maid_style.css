@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 h2{
@@ -7,59 +8,77 @@ h2{
     font-style: italic;
     font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
 }
-
-
+.header{
+  text-decoration: underline;
+  font-weight: bold;
+}
+.header1{
+  padding: 350px;
+  color: #094270;
+}
 .column-layout {
-    margin:100 auto;
+    /* margin:0 auto; */
     line-height: 2;
     display: flex;
-    flex-basis: 30%;  
-    align-items: flex-start;
-}
-  
-  .main-column {
+    flex-direction: column;
+ }
+ .main-column {   
     background-color: rgb(216, 245, 240);
-    background-image: linear-gradient(to bottom right,#87c0eea9, white);
-    padding: 20px;
-    flex: 1;
+    background-image: linear-gradient(to bottom right,#1b8079, white);
+    padding: 15px;
     order: 1;
-    flex-basis: 30%;
-    
+    width: 100%;
+    color: rgb(0, 0, 0);
+  }
+  .main-column  ul >div{
+    text-decoration: none;
+    list-style-type: square;
+    font-size: 25px;
+  }
+  .contents{
+    display: inline-flex;
+    justify-content: space-between;
   }
   
   .sidebar-one {
-    background-image: linear-gradient(to bottom right, rgba(137, 143, 138, 0.301),black);
-    flex: 3;
-    padding: 30px;
-    order: 2;    
-    padding: 20px;
-    flex-basis: 50%;
+    border: 1px solid #000000;
+    order: 1; 
+    margin: 20px 200px 20px 200px;
+    padding: 10px;
+    height: 90%;
     flex-direction: column;
-  }
+   }
   .sidebar-one img{
     border-radius: 50%;
 }
-.a{
-    padding: 60px;
-    background-color: white;
-    flex: 1;
-
-}
-.b{
-    padding: 60px;
-    background-color: white;
-    flex: 1;
-} 
 .rating{
-    color: rgb(199, 7, 7);
+    color: rgb(11, 148, 46);
     font-weight: 800;
     font-style: oblique;
     font-size: 15px;
 }
-
-
-  .contents{
-
-    margin-top: 20%;
-    font-size: 25px;
-  }
+.topbox {
+  display: grid;
+  margin-top: 125px;
+  grid-template-columns: 12% 12% 14% 14% 14% 14% 14% ;
+  grid-gap: 10px;
+}
+.topbox img{
+    border-radius: 50%;
+}
+.topbox > div {
+  text-align: left;
+  font-size: 15px;
+}
+.topbox li{
+    text-decoration: none;
+    list-style-type: none;
+}
+#bottom{
+  order: 4 ;
+  /* margin-bottom: 0px;
+  height: 100%; */
+}
+.hrbottom{
+  order: 3;
+}
