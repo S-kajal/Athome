@@ -13,7 +13,6 @@ h2{
   font-weight: bold;
 }
 .header1{
-  padding: 350px;
   color: #094270;
 }
 .column-layout {
@@ -43,7 +42,7 @@ h2{
   .sidebar-one {
     border: 1px solid #000000;
     order: 1; 
-    margin: 20px 200px 20px 200px;
+    margin: 20px 23% 20px 23%;
     padding: 10px;
     height: 90%;
     flex-direction: column;
